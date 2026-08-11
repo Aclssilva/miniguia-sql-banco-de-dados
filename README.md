@@ -1,135 +1,297 @@
-# 📚 Mini Guia SQL e Banco de Dados
+# 📚 Caderno Temático: SQL e Dados
 
-> Projeto desenvolvido para o Desafio de Projeto da DIO, utilizando o NotebookLM como ferramenta de aprendizagem ativa.
+![Status](https://img.shields.io/badge/status-concluído-success)
+![Tema](https://img.shields.io/badge/tema-SQL%20e%20Dados-blue)
+![Ferramenta](https://img.shields.io/badge/IA-NotebookLM-orange)
 
-## 🎯 Contexto e Objetivos
-
-Este projeto tem como objetivo explorar os fundamentos de **SQL e bancos de dados relacionais**, utilizando Inteligência Artificial como ferramenta de apoio ao processo de aprendizagem.
-
-O estudo foi desenvolvido a partir da curadoria de fontes abertas e do uso do **NotebookLM** para explorar conceitos, realizar perguntas, comparar informações, testar diferentes estratégias de prompt e validar criticamente as respostas obtidas.
-
-### Objetivos
-
-* Compreender os fundamentos de bancos de dados relacionais;
-* Entender o papel dos SGBDs;
-* Aprender os principais conceitos de SQL;
-* Compreender modelagem de dados e Diagramas Entidade-Relacionamento;
-* Desenvolver conhecimentos sobre consultas e manipulação de dados;
-* Explorar diferentes estratégias de engenharia de prompts;
-* Avaliar criticamente respostas produzidas por Inteligência Artificial;
-* Consolidar o conhecimento adquirido em um miniguia de estudo reutilizável.
+> Projeto desenvolvido para o Desafio de Projeto da DIO, explorando a Inteligência Artificial como ferramenta de aprendizagem ativa.
 
 ---
 
-## 📖 Curadoria de Fontes
+## 🎯 Sobre o Projeto
 
-Foram selecionadas fontes de diferentes formatos e características, incluindo documentação técnica, materiais educacionais, tutoriais interativos e vídeos.
+Este projeto apresenta um **Caderno Temático sobre SQL e Dados**, desenvolvido com o objetivo de estudar e consolidar conhecimentos fundamentais sobre bancos de dados relacionais, SQL e modelagem de dados.
 
-### Fontes textuais
+O **NotebookLM** foi utilizado como ferramenta de apoio ao processo de aprendizagem, permitindo trabalhar com fontes previamente selecionadas, realizar perguntas, explorar conceitos, testar diferentes estratégias de prompts e revisar criticamente as respostas obtidas.
 
-| Fonte           | Tipo                 | Principal contribuição     |
-| --------------- | -------------------- | -------------------------- |
-| PostgreSQL      | Documentação oficial | Fundamentos e comandos SQL |
-| MySQL           | Documentação oficial | Sintaxe e operações SQL    |
-| Microsoft Learn | Material oficial     | JOINs e consultas          |
-| Khan Academy    | Material educacional | Fundamentos e exercícios   |
-| SQLBolt         | Tutorial interativo  | Prática de SQL             |
+Mais do que reunir informações, o projeto busca demonstrar um processo de aprendizagem baseado em:
 
-### Fontes em vídeo
-
-| Fonte          | Tipo                | Principal contribuição         |
-| -------------- | ------------------- | ------------------------------ |
-| freeCodeCamp   | Curso               | SQL e bancos de dados          |
-| Curso em Vídeo | Curso               | Fundamentos de bancos de dados |
-| Simplilearn    | Curso               | SQL e análise de dados         |
-| Khan Academy   | Aula                | Introdução ao SQL              |
-| SQLBolt        | Material interativo | Exercícios práticos            |
-
-> Os links e informações detalhadas sobre cada fonte serão documentados em [`fontes/fontes.md`](fontes/fontes.md).
+**curadoria → exploração → questionamento → validação → organização → revisão.**
 
 ---
 
-## 🤖 Uso do NotebookLM
+# 🧠 Objetivos
 
-O NotebookLM foi utilizado como ferramenta de aprendizagem ativa para:
+Os principais objetivos do projeto foram:
 
-* consultar as fontes selecionadas;
-* gerar explicações sobre conceitos;
-* explorar assuntos relacionados;
-* comparar conceitos e abordagens;
-* elaborar perguntas de aprofundamento;
-* analisar criticamente respostas geradas;
-* identificar limitações nas fontes;
-* consolidar conhecimentos para o miniguia final.
-
----
-
-## 🧠 Engenharia de Prompts
-
-Durante o projeto foram testadas diferentes estratégias de elaboração de prompts, observando como mudanças na especificidade das instruções influenciaram os resultados.
-
-O processo incluiu:
-
-1. Perguntas iniciais e abrangentes;
-2. Prompts estruturados por tópicos;
-3. Solicitação de exemplos e códigos SQL;
-4. Solicitação de comparação entre SGBDs;
-5. Verificação das fontes utilizadas;
-6. Auditoria crítica das respostas;
-7. Identificação de limitações e possíveis imprecisões.
-
-Os testes completos estão documentados em [`prompts/engenharia-de-prompts.md`](prompts/engenharia-de-prompts.md).
+* compreender os fundamentos de bancos de dados;
+* entender o modelo relacional;
+* conhecer o funcionamento dos SGBDs;
+* aprender os principais conceitos de SQL;
+* compreender chaves primárias e estrangeiras;
+* estudar modelagem e Diagramas Entidade-Relacionamento;
+* praticar consultas e operações SQL;
+* explorar o uso de Inteligência Artificial no processo de aprendizagem;
+* desenvolver estratégias de engenharia de prompts;
+* avaliar criticamente respostas geradas por IA;
+* consolidar o conhecimento em um material reutilizável.
 
 ---
 
-## 🩹 Cicatrizes e Troubleshooting
+# 🗂️ Estrutura do Projeto
 
-As "cicatrizes" representam problemas, limitações ou comportamentos inesperados encontrados durante o uso do NotebookLM e as estratégias utilizadas para lidar com eles.
-
-Entre os principais aprendizados está a percepção de que uma resposta mais detalhada não é necessariamente uma resposta mais precisa. Por isso, foram realizadas etapas específicas de verificação e análise crítica das informações apresentadas pela IA.
-
-Os casos analisados serão documentados em [`prompts/engenharia-de-prompts.md`](prompts/engenharia-de-prompts.md).
-
----
-
-## 📘 Miniguia de Estudo
-
-O conhecimento consolidado durante o projeto será organizado em um miniguia contendo:
-
-* Resumo estruturado de SQL e bancos de dados;
-* Fundamentos de modelagem de dados;
-* Diagramas Entidade-Relacionamento;
-* Principais comandos SQL;
-* Consultas e relacionamentos entre tabelas;
-* Glossário de conceitos;
-* Prompts reutilizáveis para futuras revisões.
-
-### Conteúdo
-
-* [Resumo de SQL e Dados](miniguia/resumo.md)
-* [Glossário](miniguia/glossario.md)
-* [Prompts Reutilizáveis](miniguia/prompts-reutilizaveis.md)
+```text
+caderno-tematico-sql-dados/
+│
+├── README.md
+│
+├── fontes/
+│   └── fontes.md
+│
+├── prompts/
+│   └── engenharia-de-prompts.md
+│
+└── miniguia/
+    ├── resumo.md
+    ├── glossario.md
+    └── prompts-reutilizaveis.md
+```
 
 ---
 
-## 📊 Infográfico
+# 📖 1. Curadoria de Fontes
 
-Um infográfico será utilizado como recurso visual complementar ao miniguia, sintetizando os principais conceitos estudados.
+Foram selecionadas fontes abertas de diferentes tipos para construir a base de conhecimento do NotebookLM.
+
+A curadoria buscou combinar:
+
+* documentação oficial;
+* materiais educacionais;
+* tutoriais interativos;
+* videoaulas;
+* materiais voltados à prática.
+
+### 📚 Fontes utilizadas
+
+Entre os materiais consultados estão conteúdos de:
+
+* PostgreSQL;
+* MySQL;
+* Microsoft Learn;
+* Khan Academy;
+* SQLBolt;
+* freeCodeCamp;
+* Curso em Vídeo;
+* Simplilearn.
+
+👉 **[Ver a curadoria completa de fontes](fontes/fontes.md)**
 
 ---
 
-## 💡 Reflexões e Aprendizados
+# 🤖 2. NotebookLM como Ferramenta de Aprendizagem
 
-> *Seção a ser preenchida após a conclusão do processo de estudo.*
+O NotebookLM foi utilizado como uma ferramenta de aprendizagem ativa.
+
+Em vez de simplesmente solicitar respostas sobre SQL, o processo buscou utilizar a ferramenta para:
+
+* explorar conceitos;
+* fazer perguntas de aprofundamento;
+* solicitar exemplos;
+* comparar conceitos;
+* identificar limitações das fontes;
+* revisar respostas anteriores;
+* testar diferentes formas de elaboração de prompts.
+
+Uma das estratégias mais importantes foi estabelecer limites para a IA, solicitando que determinadas respostas fossem produzidas **exclusivamente com base nas fontes fornecidas**.
+
+Isso permitiu observar não apenas o que as fontes apresentavam, mas também identificar informações que não estavam disponíveis no material.
 
 ---
 
-## 🚀 Conclusão
+# 🧪 3. Engenharia de Prompts
 
-> *Seção a ser preenchida após a conclusão do projeto.*
+Durante o projeto, os prompts foram evoluindo de perguntas mais abertas para instruções mais estruturadas.
+
+O processo passou por etapas como:
+
+```text
+Pergunta ampla
+      ↓
+Prompt estruturado
+      ↓
+Exploração de novos conceitos
+      ↓
+Questionamento
+      ↓
+Auditoria crítica
+      ↓
+Validação
+```
+
+Os experimentos foram documentados considerando:
+
+* objetivo do prompt;
+* estratégia utilizada;
+* resposta obtida;
+* análise crítica;
+* aprendizados;
+* problemas encontrados;
+* soluções utilizadas.
+
+👉 **[Ver os experimentos de engenharia de prompts](prompts/engenharia-de-prompts.md)**
+
+---
+
+# 🩹 4. Cicatrizes e Troubleshooting
+
+Durante o desenvolvimento, alguns problemas e limitações foram identificados.
+
+### 🔎 Prompt muito amplo
+
+Perguntas genéricas produziram respostas úteis para introdução, mas pouco aprofundadas.
+
+**Solução:** especificar público, objetivo, estrutura e profundidade esperada.
+
+### 🔎 Respostas detalhadas não são necessariamente precisas
+
+Uma resposta extensa pode conter simplificações ou interpretações que precisam ser verificadas.
+
+**Solução:** utilizar prompts de auditoria e validação.
+
+### 🔎 Limitações das fontes
+
+Alguns conceitos procurados não estavam explicitamente presentes nos materiais selecionados.
+
+**Solução:** solicitar que a IA informasse quando não houvesse evidência suficiente, evitando completar as lacunas com conhecimento externo.
+
+Essas situações foram importantes para compreender que o uso de IA exige **pensamento crítico e validação**, e não apenas geração de respostas.
+
+---
+
+# 📘 5. Miniguia de Estudo
+
+O conhecimento obtido durante o projeto foi consolidado em um material de revisão.
+
+### 📚 Resumo
+
+Conteúdo sobre:
+
+* bancos de dados;
+* modelo relacional;
+* SGBDs;
+* modelagem;
+* Diagramas ER;
+* chaves;
+* SQL;
+* `SELECT`;
+* `WHERE`;
+* `ORDER BY`;
+* agregações;
+* `GROUP BY`;
+* `HAVING`;
+* `JOIN`;
+* subconsultas;
+* `INSERT`;
+* `UPDATE`;
+* `DELETE`;
+* CRUD;
+* restrições;
+* erros comuns.
+
+👉 **[Acessar o resumo de SQL e Dados](miniguia/resumo.md)**
+
+### 📑 Glossário
+
+Lista dos principais termos estudados e suas respectivas definições.
+
+👉 **[Acessar o glossário](miniguia/glossario.md)**
+
+### ♻️ Prompts Reutilizáveis
+
+Biblioteca de prompts desenvolvida durante o projeto para apoiar futuros estudos de SQL, programação e outros assuntos técnicos.
+
+👉 **[Acessar os prompts reutilizáveis](miniguia/prompts-reutilizaveis.md)**
+
+---
+
+# 📊 6. Infográfico
+
+Como recurso visual complementar, foi produzido um infográfico reunindo os principais conceitos abordados no caderno temático.
+
+> O infográfico será disponibilizado nesta seção após sua geração no NotebookLM.
+
+---
+
+# 💡 7. Principais Aprendizados
+
+O desenvolvimento do projeto permitiu perceber que utilizar Inteligência Artificial para estudar não significa simplesmente perguntar e aceitar a primeira resposta.
+
+O processo mais eficiente envolveu:
+
+### 1. Curadoria
+
+Selecionar fontes confiáveis antes de começar a exploração.
+
+### 2. Contextualização
+
+Explicar para a IA qual era o objetivo e o nível de conhecimento esperado.
+
+### 3. Questionamento
+
+Fazer perguntas progressivamente mais específicas.
+
+### 4. Validação
+
+Verificar se as respostas realmente eram sustentadas pelas fontes.
+
+### 5. Pensamento crítico
+
+Questionar simplificações, possíveis erros e informações ausentes.
+
+### 6. Organização
+
+Transformar as descobertas em um material estruturado para futuras revisões.
+
+---
+
+# 🎓 Reflexão Final
+
+Este projeto mostrou que a Inteligência Artificial pode ser utilizada como uma ferramenta de aprendizagem ativa quando o estudante participa de forma crítica do processo.
+
+Durante o estudo de SQL e Dados, o NotebookLM foi utilizado não apenas para obter explicações, mas também para explorar conceitos, gerar perguntas, comparar informações e revisar respostas.
+
+Um dos principais aprendizados foi perceber que **a qualidade da resposta depende também da qualidade da pergunta**.
+
+Além disso, a utilização de fontes selecionadas tornou possível trabalhar com uma abordagem mais controlada, permitindo identificar quando uma informação estava sustentada pelo material e quando seria necessário investigar ou validar melhor.
+
+Dessa forma, o projeto contribuiu não apenas para o aprendizado de SQL e bancos de dados, mas também para o desenvolvimento de habilidades relacionadas a:
+
+* pensamento crítico;
+* curadoria de informações;
+* engenharia de prompts;
+* validação de conteúdo;
+* organização do conhecimento;
+* uso responsável de Inteligência Artificial.
+
+---
+
+# 🚀 Conclusão
+
+O Caderno Temático consolidou os principais fundamentos estudados sobre **SQL e Dados** em um material de consulta que pode continuar sendo utilizado durante a graduação e em estudos futuros.
+
+Além do conhecimento técnico, o projeto demonstra uma metodologia de aprendizagem que pode ser aplicada a diferentes áreas da tecnologia:
+
+> **Pesquisar → Questionar → Testar → Validar → Organizar → Aplicar**
 
 ---
 
 ## 👩‍💻 Projeto
 
-Desenvolvido como parte de um **Desafio de Projeto da DIO**, utilizando o NotebookLM como ferramenta de aprendizagem ativa e apoio à organização do conhecimento.
+**Tema:** SQL e Dados
+**Ferramenta de IA:** NotebookLM
+**Plataforma:** DIO
+**Repositório:** GitHub
+
+---
+
+⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório!
