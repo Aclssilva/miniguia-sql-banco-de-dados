@@ -254,6 +254,22 @@ Questionar simplificações, possíveis erros e informações ausentes.
 
 Transformar as descobertas em um material estruturado para futuras revisões.
 
+# 🛠️ Tecnologias e Ferramentas
+
+- **SQL** — linguagem utilizada para interação com bancos de dados relacionais;
+- **NotebookLM** — ferramenta de Inteligência Artificial utilizada como apoio à aprendizagem e análise das fontes;
+- **GitHub** — utilizado para versionamento e publicação do projeto;
+- **Markdown** — utilizado na documentação do projeto;
+- **Engenharia de Prompts** — utilizada para estruturar, testar e aprimorar as interações com a IA.
+
+---
+
+# 📌 Status do Projeto
+
+**✅ Concluído**
+
+O Caderno Temático foi desenvolvido, documentado e organizado no GitHub como parte do Desafio de Projeto da DIO.
+
 ---
 
 # 🎓 Reflexão Final
