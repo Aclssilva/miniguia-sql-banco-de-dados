@@ -216,9 +216,11 @@ Biblioteca de prompts desenvolvida durante o projeto para apoiar futuros estudos
 
 # 📊 6. Infográfico
 
-Como recurso visual complementar, foi produzido um infográfico reunindo os principais conceitos abordados no caderno temático.
+Como recurso visual complementar, foi produzido um infográfico reunindo conceitos fundamentais sobre a evolução do modelo relacional e os principais comandos SQL (DML).
 
-> O infográfico será disponibilizado nesta seção após sua geração no NotebookLM.
+![O Coração dos Dados: Do Modelo Relacional ao SQL](Guia_do_Modelo_Relacional_SQL.png)
+
+> **Infográfico produzido com auxílio do NotebookLM a partir das fontes selecionadas para este projeto.**
 
 ---
 
